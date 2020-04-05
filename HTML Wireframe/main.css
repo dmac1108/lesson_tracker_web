@@ -19,20 +19,26 @@ legend{
 
 fieldset>ul{
     list-style: none;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;*/
 }
 
-/*fieldset>li{
+fieldset>ul>li{
     
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-}*/
+}
 
+input, select{
+    margin: 10px;
+    width: 100%;
+}
 
 .lesson-detail{
     display: flex;
