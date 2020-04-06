@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
 nav>ul{
     list-style: none;
     display: flex;
@@ -9,7 +13,6 @@ nav>ul{
 fieldset{
     border: none;
 }
-
 
 legend{
     
@@ -34,10 +37,16 @@ fieldset>ul>li{
     justify-content: flex-start;
     align-items: center;
 }
-
-input, select{
+label{
     margin: 10px;
-    width: 100%;
+    width: 15%;
+}
+input, select{
+    font-family: inherit;
+    font-size: 100%;
+    margin: 10px;
+    width: 25%;
+
 }
 
 .lesson-detail{
