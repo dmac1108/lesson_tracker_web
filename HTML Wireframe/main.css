@@ -1,12 +1,16 @@
 body{
     font-family: Arial, Helvetica, sans-serif ;
     color: #59564e;
+    font-size: 20px;
 }
 
 nav>h1{
     position: absolute;
     top: 0px;
     left: 10px;
+    font: #ae7443;
+    text-shadow: 10px #543515;
+    font-size: 32px;
 
 }
 
@@ -58,16 +62,14 @@ legend{
     margin-right: auto;
     color: #ae7443;
     font-weight: bold;
+    font-size: 22px ;
 }
 
 fieldset>ul{
     list-style: none;
     margin-left: auto;
     margin-right: auto;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
+    
 }
 
 fieldset>ul>li{
@@ -79,15 +81,32 @@ fieldset>ul>li{
 }
 label{
     margin: 10px;
-    width: 15%;
+    width: 25%;
 }
 input, select{
     font-family: inherit;
     font-size: 100%;
     margin: 10px;
-    width: 25%;
+    width: 75%;
 
 }
+
+button{
+    border-radius: 5px;
+    color: #ae7443 ;
+    border-width:  2px;
+    border-color: #59564e;
+    font-size: inherit;
+    padding: 5px;
+    background-color:#e5d2a9;
+    font-weight: bold;
+
+}
+
+.form-buttons{
+    justify-content: space-around;
+}
+
 
 .lesson-detail{
     display: flex;
