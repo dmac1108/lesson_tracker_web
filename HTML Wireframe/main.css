@@ -26,6 +26,7 @@ nav>ul>li{
     
 }
 
+
 nav>a{
     text-decoration: none;
 
@@ -114,3 +115,31 @@ button{
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 650px){
+
+#hamburger {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+    .hamburger{
+   
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    
+}
+nav>ul{
+    display: none;
+}
+
+}
+
+
+@media screen and (min-width: 650px){
+    .hamburger{
+        display: none;
+    }
+    
+    }
